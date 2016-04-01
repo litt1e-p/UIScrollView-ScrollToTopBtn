@@ -2,7 +2,7 @@
 
 a UIScrollView category for making a scroll to top button via runtime
 
-Installation
+# Installation
 
 - use cocoapods
 ```swift
@@ -13,7 +13,7 @@ pod 'UIScrollView+ScrollToTopBtn', '~> 0.0.1'
 just download lib folder and add into your project
 ```
 
-Usage
+# Usage
 
 - customization for scrollToTop button, you can custom its image、title、backgroundImage or other properties as usually
 ```swift
