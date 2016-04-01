@@ -25,6 +25,7 @@
 //    [btn setTitle:@"go" forState:UIControlStateNormal];
 //    [btn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
     self.tableView.scrollToTopBtnFrame = CGRectMake(self.view.bounds.size.width - 100, self.view.bounds.size.height - 100, 100, 100);
+    self.tableView.scrollToTopBtnShowOffset = 700.f;
     self.tableView.scrollToTopBtn = btn;
 }
 
