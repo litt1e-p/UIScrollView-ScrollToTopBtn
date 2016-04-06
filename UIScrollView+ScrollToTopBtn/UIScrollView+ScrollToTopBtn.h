@@ -30,7 +30,7 @@
 /**
  *  customization for scrollToTop button, you can custom its image、title、backgroundImage or other properties as usually
  */
-@property (nonatomic, assign, nullable) UIButton *scrollToTopBtn;
+@property (nonatomic, strong, nullable) UIButton *scrollToTopBtn;
 
 /**
  *  frame for scrollToTop button, include the origin position and size. default size: 44.f(side length) and its margin 12.f

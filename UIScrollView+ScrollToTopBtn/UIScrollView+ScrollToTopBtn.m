@@ -89,9 +89,4 @@ static CGFloat const kScrollToTopBtnMargin     = 12.f;
     objc_setAssociatedObject(self, @selector(scrollToTopBtnShowOffset), @(scrollToTopBtnShowOffset), OBJC_ASSOCIATION_ASSIGN);
 }
 
-- (void)dealloc
-{
-    objc_removeAssociatedObjects(self);
-}
-
 @end
