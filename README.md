@@ -35,6 +35,7 @@ self.tableView.scrollToTopBtnShowOffset = 700.f;
 ```swift
 self.tableView.scrollToTopBtn = btn;
 ```
+- done & enjoy it
 
 # Screenshot
 
