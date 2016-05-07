@@ -6,7 +6,7 @@ a UIScrollView category for making a scroll to top button via runtime
 
 - use cocoapods
 ```swift
-pod 'UIScrollView+ScrollToTopBtn', '~> 0.0.1'
+pod 'UIScrollView+ScrollToTopBtn', '~> 0.0.2'
 ```
 - manual import
 ```swift
@@ -42,6 +42,10 @@ self.tableView.scrollToTopBtn = btn;
 <img src="screenshots.gif" width="320">
 
 # Release notes
+
+- 0.0.2
+
+`fix a bug of old iOS system version`
 
 - 0.0.1
 
